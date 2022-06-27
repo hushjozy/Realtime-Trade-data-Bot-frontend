@@ -24,7 +24,7 @@ setInterval(() => {
       var context = this;
 
       $.ajax({
-        url: 'http://localhost:4000',
+        url: 'http://mtback.herokuapp.com',
         method: 'GET',
         mode : "no-cors",
         headers: {
