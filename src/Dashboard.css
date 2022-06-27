@@ -1,0 +1,35 @@
+
+.header h1{
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 4.4rem;
+}
+.container{
+  position: relative;
+  top: 10vh;
+  width:100vw;
+  height: 50vh;
+  color: #fff;
+  background: #f8f8f8;
+  padding:1%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+.card{
+width:32.2%;
+height: 30vh;
+border-radius: 30px;
+border: 2px solid #fff;
+background: orangered;
+}
+.card h2{
+  font-size: 2.4rem;
+  margin-top: 10%;
+}
+.card h3{
+  font-size: 1.9rem;
+}
