@@ -33,3 +33,23 @@ background: orangered;
 .card h3{
   font-size: 1.9rem;
 }
+
+@media screen and (max-width: 500px) {
+  .container{
+    flex-direction: column;
+
+  }
+  .card{
+    width: 50%;
+    height: 16vh;
+    }
+    .card h2{
+      font-size: 1.5rem;
+      margin-top: 12%;
+      margin-bottom: 1%;
+    }
+    .card h3{
+      margin-top: 1%;
+      font-size: 1.2rem;
+    }
+}
