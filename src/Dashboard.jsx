@@ -7,7 +7,7 @@ export default class Dashboard extends React.Component {
     super(props);
 
     this.state = {
-      time: "10:00",
+      time: "00:00",
       equity: 0.00,
       balance: 0.00,
     }
